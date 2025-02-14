@@ -1,38 +1,42 @@
-# Health Calculator Microservice
+```md
+# 📄 README - Health Calculator Microservice
 
-Ce projet est un microservice Flask qui calcule les métriques de santé telles que l'IMC (Indice de Masse Corporelle) et le TMB (Taux Métabolique Basal) via une API REST.
+Ce fichier README est prêt à être ajouté à votre dépôt Git avec toutes les informations nécessaires.
 
-## Prérequis
+## 🛑 Prérequis
+- **Python** ≥ 3.10
+- **pip** (gestionnaire de paquets)
+- **Docker** *(optionnel)*
 
-- Python 3.10 ou supérieur
-- pip (gestionnaire de paquets Python)
-- Docker (optionnel, pour la conteneurisation)
-
-## Installation
-
-1. **Cloner le dépôt :**
-
-   ```bash
-   git clone <URL_DU_DEPOT>
-   cd healt
-
-2. **Créer un environnement virtuel :**
-
-Il est recommandé d'utiliser un environnement virtuel pour isoler les dépendances du projet.
-
-
-  ```python3 -m venv venv
-  source venv/bin/activate```
-
-3. **Installer les dépendances :**
-
-Utilisez pip pour installer les dépendances nécessaires à partir du fichier requirements.txt.
-
-
+## ⚙️ Installation
+### 1️⃣ Cloner le dépôt :
+```bash
+git clone https://github.com/Gregory95400/healt
+cd healt
+```
+### 2️⃣ Créer et activer l’environnement virtuel :
+```bash
+python3 -m venv venv
+source venv/Scripts/activate
+```
+### 3️⃣ Installer les dépendances :
+```bash
 pip install -r requirements.txt
-Exécution de l'Application
-Pour lancer l'application Flask en local, exécutez la commande suivante :
-
-
+```
+## 🚀 Lancer l’Application
+```bash
 python app.py
-L'application sera accessible à l'adresse http://127.0.0.1:5000.
+```
+L’API sera accessible à : **http://127.0.0.1:5000**
+
+## 🐳 Exécuter avec Docker *(optionnel)*
+### 1️⃣ Construire l’image :
+```bash
+docker build -t health-calculator-service .
+```
+### 2️⃣ Lancer le conteneur :
+```bash
+docker run -p 5000:5000 health-calculator-service
+```
+
+
