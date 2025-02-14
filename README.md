@@ -1,8 +1,3 @@
-
-# 📄 README - Health Calculator Microservice
-
-Ce fichier README est prêt à être ajouté à votre dépôt Git avec toutes les informations nécessaires.
-
 ## 🛑 Prérequis
 - **Python** ≥ 3.10
 - **pip** (gestionnaire de paquets)
