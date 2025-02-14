@@ -20,9 +20,9 @@ Ce projet est un microservice Flask qui calcule les métriques de santé telles 
 
 Il est recommandé d'utiliser un environnement virtuel pour isoler les dépendances du projet.
 
- ```bash
-  python3 -m venv venv
-  source venv/bin/activate
+
+  ```python3 -m venv venv
+  source venv/bin/activate```
 
 3. **Installer les dépendances :**
 
