@@ -1,4 +1,4 @@
-```md
+
 # 📄 README - Health Calculator Microservice
 
 Ce fichier README est prêt à être ajouté à votre dépôt Git avec toutes les informations nécessaires.
